@@ -1,0 +1,123 @@
+/* Media Queries */
+@media screen and (min-width: 600px) {
+	.drawer.sidebar--links {
+		margin-right: 12rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.dashboard--widgets {
+		width: auto !important;
+	}
+
+	.wallet {
+		height: 163px !important;
+	}
+
+	.wallet--balance {
+		margin-left: 24px !important;
+	}
+
+	.naira--wallet__amount,
+	.naira--wallet {
+		font-size: 1.5rem !important;
+	}
+
+	.wallet--btn__add {
+		margin-right: 1rem !important;
+	}
+
+	.blob--top__mobile {
+		position: absolute;
+		right: 0 !important;
+		top: 0 !important;
+	}
+
+	.chart-income,
+	.conversion-rate,
+	.chart-progress,
+	.loan-types,
+	.demography {
+		width: auto !important;
+	}
+
+	.heading-title {
+		font-size: 24px;
+	}
+
+	.naira__amount {
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+	.wallet-eye_icon {
+		margin-right: 1rem !important;
+	}
+
+	/* .add-product_forms {
+		width: 100%;
+	}
+
+	.step__one--wrapper {
+		margin-right: 24px;
+	} */
+}
+
+@media screen and (max-width: 378px) {
+	.wallet--balance {
+		margin-left: 14px !important;
+	}
+
+	.wallet--btn__add {
+		margin-right: 0.4rem !important;
+	}
+}
+@media screen and (max-width: 360px) {
+	.mobile--table__entries {
+		width: 90%;
+	}
+
+	.navbar--search__input {
+		padding: 2.5px;
+	}
+
+	.chart-income,
+	.conversion-rate,
+	.chart-progress,
+	.loan-types,
+	.demography {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.login-btn {
+		width: 13.4rem;
+		height: 2.625rem;
+		font-size: 0.8rem;
+	}
+
+	.biodata--label {
+		font-size: 12px;
+	}
+
+	.navbar {
+		padding: 0 12px;
+	}
+
+	.company--info {
+		margin-left: 12px;
+	}
+
+	.mobile--table__entries {
+		width: 100%;
+	}
+
+	.wallet--balance {
+		margin-left: 8px !important;
+	}
+
+	.wallet--btn__add {
+		margin-right: 0.2rem !important;
+	}
+}

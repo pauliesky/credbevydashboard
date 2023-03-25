@@ -1,0 +1,120 @@
+/* NextUI default selectors */
+.nextui-c-kRHeuF {
+	padding: 0 !important;
+}
+
+.nextui-c-hWZRae {
+	border-radius: 0;
+}
+
+.nextui-c-hWZRae-bzEnZV-borderWeight-normal {
+	border-width: 0 !important;
+}
+
+.nextui-c-kNgzEX {
+	background: none !important;
+}
+
+/* Box Shadow */
+.nextui-c-hWZRae-gikTHb-shadow-true {
+	box-shadow: none !important;
+}
+
+.nextui-c-cKnKee-gbVjbo-color-primary {
+	--nextui--checkboxColor: #8003cd !important;
+	--nextui--checkboxColorHover: #8003cd !important;
+}
+.nextui-c-fcXuxO-fyxmJu-color-primary {
+	--nextui-colors-primary: #333333 !important;
+	--nextui--tableRowTextColor: #333333 !important;
+}
+
+.nextui-c-bUbfzy-iebzMm-isSelected-true
+	.nextui-c-PJLV:where(.nextui-c-czOCAM.nextui-c-PJLV)::before {
+	background: #f5e4ff !important;
+}
+
+.nextui-c-kNgzEX:last-child,
+.nextui-c-kNgzEX:first-child,
+.nextui-c-fcXuxO-dmrFpN-cv
+	.nextui-c-bUbfzy:where(.nextui-c-PJLV):first-child
+	.nextui-c-PJLV:where(.nextui-c-czOCAM.nextui-c-PJLV):last-child,
+.nextui-c-fcXuxO-dmrFpN-cv
+	.nextui-c-bUbfzy:where(.nextui-c-PJLV):first-child
+	.nextui-c-PJLV:where(.nextui-c-czOCAM.nextui-c-PJLV):first-child,
+.nextui-c-fcXuxO-dmrFpN-cv
+	.nextui-c-bUbfzy:where(.nextui-c-PJLV):last-child
+	.nextui-c-PJLV:where(.nextui-c-czOCAM.nextui-c-PJLV):first-child,
+.nextui-c-fcXuxO-dmrFpN-cv
+	.nextui-c-bUbfzy:where(.nextui-c-PJLV):last-child
+	.nextui-c-PJLV:where(.nextui-c-czOCAM.nextui-c-PJLV):last-child {
+	border-radius: 0 !important;
+}
+
+.nextui-c-hWZRae-gikTHb-shadow-true {
+	box-shadow: none;
+}
+
+.nextui-c-kNgzEX {
+	font-weight: 700 !important;
+	font-size: 14px !important;
+	line-height: 24px;
+	letter-spacing: -0.5px;
+	color: #8a8b9f !important;
+}
+
+.nextui-c-bUbfzy {
+	font-weight: 600 !important;
+	font-size: 14px !important;
+	line-height: 24px;
+	letter-spacing: -0.5px;
+	color: #333333 !important;
+}
+
+/* Checkboxes */
+.nextui-c-kNgzEX:first-child,
+.nextui-c-fcXuxO-dmrFpN-cv
+	.nextui-c-bUbfzy:where(.nextui-c-PJLV):not(:first-child):not(:last-child)
+	.nextui-c-PJLV:where(.nextui-c-czOCAM.nextui-c-PJLV):first-child,
+.nextui-c-fcXuxO-dmrFpN-cv
+	.nextui-c-bUbfzy:where(.nextui-c-PJLV):last-child
+	.nextui-c-PJLV:where(.nextui-c-czOCAM.nextui-c-PJLV):first-child,
+.nextui-c-fcXuxO-dmrFpN-cv
+	.nextui-c-bUbfzy:where(.nextui-c-PJLV):first-child
+	.nextui-c-PJLV:where(.nextui-c-czOCAM.nextui-c-PJLV):first-child {
+	padding-left: 2rem !important;
+}
+
+/* Table Cells */
+.nextui-c-PJLV.nextui-c-czOCAM.nextui-c-PJLV-gulvcB-isFocusVisible-false.nextui-table-cell,
+.nextui-c-kNgzEX.nextui-c-PJLV.nextui-c-PJLV-gulvcB-isFocusVisible-false.nextui-table-column-header {
+	width: min-content !important	;
+	padding-right: 1.75rem;
+}
+
+.nextui-c-PJLV-iiQewsr-css {
+	height: 0 !important;
+}
+
+.nextui-c-cAbbLF-byVyBS-noMargin-true {
+	border-radius: 3px !important;
+	background: rgba(218, 218, 218, 0.4) !important;
+}
+
+.nextui-c-cUthvm-dZWCtT-active-true .nextui-c-fItrmj {
+	color: #333333 !important;
+}
+
+.nextui-c-cUthvm {
+	background: none !important;
+	color: #8a8b9f !important;
+}
+
+.nextui-c-PJLV-iccTTUn-css.nextui-table-body {
+	border-bottom: 1px solid #e5eaef !important;
+}
+
+.nextui-c-kNgzEX:first-child {
+	opacity: 0 !important;
+	pointer-events: none !important;
+}

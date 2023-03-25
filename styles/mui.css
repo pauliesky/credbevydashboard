@@ -1,0 +1,92 @@
+/* Css Selectors from MUI */
+
+/* MUI SVG */
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+	stroke: none !important;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+	justify-content: space-between !important;
+}
+
+.css-1aquho2-MuiTabs-indicator,
+.MuiTouchRipple-root.css-w0pj6f {
+	height: 0 !important;
+	display: none !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected,
+.css-1q2h7u5.Mui-selected {
+	color: #8003cd !important;
+	font-weight: 700 !important;
+}
+
+.css-k008qs {
+	justify-content: space-between !important;
+	align-items: center !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+	color: #8a8b9f !important;
+	font-family: 'Manrope' !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 14px !important;
+	line-height: 19px !important;
+	text-transform: unset !important;
+	padding: 0 !important;
+}
+
+.css-jpln7h-MuiTabs-scroller {
+	padding: 1.5rem !important;
+}
+
+.MuiTouchRipple-root.css-8je8zh-MuiTouchRipple-root {
+	display: none !important;
+}
+
+.MuiBox-root.css-19kzrtu {
+	padding: 0 !important;
+}
+
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root,
+.MuiDataGrid-columnSeparator.MuiDataGrid-columnSeparator--sideRight,
+.MuiDataGrid-columnHeaderTitleContainer {
+	display: none !important;
+}
+
+.MuiDataGrid-cell:focus,
+.MuiDataGrid-columnHeaderTitleContainer:focus {
+	outline: none !important;
+}
+
+.aggregationColumnHeader--alignLeft {
+	text-align: left !important;
+}
+
+/* Accordion styles */
+.css-1fjvggn-MuiPaper-root-MuiAccordion-root:first-of-type {
+	border-top-left-radius: 6px !important;
+	border-top-right-radius: 6px !important;
+}
+
+.css-1fjvggn-MuiPaper-root-MuiAccordion-root:last-of-type {
+	border-bottom-left-radius: 6px !important;
+	border-bottom-right-radius: 6px !important;
+}
+
+.css-rorn0c-MuiTableContainer-root {
+	overflow-x: unset !important;
+}
+
+.css-ttwr4n {
+	display: none !important;
+}
+
+.css-orq8zk {
+	padding: 12px !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+	padding: 0 !important;
+}

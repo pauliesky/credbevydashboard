@@ -1,0 +1,235 @@
+:root {
+	--primary: #8003cd;
+	--text: #333333;
+	--text-shade-light: #8a8b9f;
+}
+
+/* Dashboard */
+.heading-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.125rem;
+	line-height: 2.25rem;
+	letter-spacing: -0.5px;
+	color: var(--text);
+}
+
+.wallet {
+	height: 210px;
+	background: #8003cd;
+	border-radius: 8px;
+}
+
+.wallet--balance {
+	margin-left: 58px;
+}
+
+.wallet--btn__add {
+	margin-right: 39px;
+	z-index: 10;
+}
+
+.wallet--btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 10px;
+	gap: 4px;
+	background: #ffffff;
+	border-radius: 4px;
+}
+
+.wallet-eye_icon {
+	margin-right: 7.82625rem;
+	cursor: pointer;
+}
+
+.add--money {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 16px;
+	letter-spacing: -0.5px;
+	color: #333333;
+}
+
+.naira--wallet {
+	font-family: 'Segoe UI', sans-serif !important;
+	font-weight: 700;
+	font-size: 2.125rem;
+	line-height: 36px;
+	letter-spacing: -0.5px;
+	color: #ffffff;
+}
+
+.naira--wallet__amount {
+	font-weight: 700;
+	font-size: 2.125rem;
+	line-height: 36px;
+	letter-spacing: -0.5px;
+	color: #ffffff;
+	padding-top: 2px;
+}
+
+.blob--top {
+	position: absolute;
+	right: 8.75rem;
+	top: 0;
+}
+
+.blob--bottom {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+.dashboard--widgets {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 1.625rem 1.5rem;
+	gap: 0.625rem;
+	width: 100%;
+	height: 10.1875rem;
+}
+
+.icon {
+	background: #f7ebff;
+}
+
+.dashboard--widgets__desc {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.625rem;
+	line-height: 0.875rem;
+	letter-spacing: -0.5px;
+	color: #a1a6b0;
+	margin-top: 1rem;
+	margin-bottom: -6px;
+}
+
+.dashboard--widgets__number {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+	letter-spacing: -0.5px;
+	color: var(--text);
+}
+
+.naira {
+	font-family: 'Segoe UI', sans-serif !important;
+	color: var(--text);
+	font-weight: 700;
+	font-size: 1.875rem;
+	margin-bottom: 1px;
+}
+
+.stats-wrapper {
+	background: #edfcf1;
+	border-radius: 10px;
+	align-self: flex-end;
+	margin-left: auto;
+	margin-bottom: 4px;
+}
+
+.dashboard--widgets__stats {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 8px;
+	line-height: 10px;
+	letter-spacing: -0.5px;
+	color: #42be65;
+}
+
+.chart-income {
+	width: 41.5625rem;
+	height: 20.5rem;
+}
+
+.conversion-rate {
+	width: 28rem;
+	height: 20.5rem;
+}
+
+.chart-desc {
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 1.5625rem;
+	letter-spacing: -0.5px;
+	color: var(--text);
+}
+
+.chart-desc__button {
+	width: 8.375rem;
+	height: 2.375rem;
+	background: #f2f3f4;
+	border-radius: 5px;
+}
+
+.chart-desc__button--text {
+	font-weight: 700;
+	font-size: 0.8125rem;
+	line-height: 18px;
+	color: var(--text);
+}
+
+.chartGrid {
+	stroke: #ececec;
+}
+
+.conversion-rate__title {
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 25px;
+	letter-spacing: -0.5px;
+	color: var(--text);
+}
+
+.chart-progress {
+	width: 28rem;
+	height: 20.5rem;
+}
+
+.chart-wrapper {
+	width: 12.25rem;
+	height: 12.25rem;
+}
+
+.piechart--label__color-completed {
+	background: #42be65;
+}
+
+.piechart--label__color-active {
+	background: var(--primary);
+}
+
+.piechart--label__color-overdue {
+	background: #fa4d56;
+}
+
+.piechart--label__color-completed,
+.piechart--label__color-active,
+.piechart--label__color-overdue {
+	width: 0.875rem;
+	height: 0.875rem;
+	border-radius: 50%;
+}
+
+.piechart--label__desc {
+	font-family: 'DM Sans' !important;
+	font-weight: 400;
+	line-height: 20px;
+	color: #000000;
+}
+
+.loan-types {
+	width: 17.3125rem;
+	height: 20.5rem;
+}
+
+.demography {
+	width: 23.5rem;
+	height: 20.5rem;
+}
